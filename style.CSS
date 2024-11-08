@@ -1,0 +1,50 @@
+h1{
+    color:red;
+    text-align: left;
+    text-decoration-line: underline ;
+    text-decoration: double;
+    text-decoration-color: blueviolet;
+    letter-spacing: 5px;
+    line-height: 0.8;
+    text-shadow: 2px 2px yellow;
+    z-index: 3;
+}
+/* Default link style */
+a:link {
+    color: #1a73e8;
+    text-decoration: none; /* No underline */
+}
+
+/* Visited link style */
+a:visited {
+    color: purple; /* Purple after being clicked */
+}
+
+/* Hover style */
+a:hover {
+    color: #e74c3c; /* Red when hovering */
+    text-decoration: underline; /* Underline when hovering */
+}
+
+/* Active style */
+a:active {
+    color: #3498db; /* Blue when clicked */
+}
+a{
+    text-align: right;
+}
+ul.a{list-style-type: circle;color: red;} ul.b{list-style-type: square;color: blue;}
+ol.c{list-style-type: upper-roman;color: red;} ol.d{list-style-type: lower-alpha;color: blue;}
+
+.background-image {
+    filter: blur(5px);
+}
+h2{position: fixed;}
+h3{text-align: center;color: purple;}
+h4{position: absolute;top: 0;right: 0;color: purple;}
+h5{position: absolute;top: 0;left: 0;color: purple;}
+h6{position: absolute;bottom: 0;left: 0;color: purple;z-index: 3;}
+small{position: absolute;bottom: 0;right: 0;color: red;}
+
+  
+  
